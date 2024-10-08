@@ -1,0 +1,19 @@
+{
+    "projectName": "cu-osc-native-bridge",
+    "buildDirectory": "build",
+    "abiOutputDirectory": "abis",
+    "recursiveMode": true,
+    "abiConfigurations": [
+        {
+            "configuration": "public",
+            "sortedJSON": true,
+            "searchRecursively": true,
+            "contractsToInclude": [],
+            "contractsToIgnore": [],
+            "eventsToIgnore": [],
+            "functionsToIgnore": [],
+            "selectorsToIgnore": [],
+            "eventsPrecedence": {}
+        }
+    ]
+}

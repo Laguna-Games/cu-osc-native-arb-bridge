@@ -1,0 +1,192 @@
+[
+    {
+        "type": "function",
+        "name": "bridgeBurn",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x74f4f547"
+    },
+    {
+        "type": "function",
+        "name": "bridgeMint",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x8c2a993e"
+    },
+    {
+        "type": "function",
+        "name": "getL2Gateway",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xbd00dcf6"
+    },
+    {
+        "type": "function",
+        "name": "l1Address",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xc2eeeebd"
+    },
+    {
+        "type": "function",
+        "name": "setL1TokenAddress",
+        "inputs": [
+            {
+                "name": "_l1TokenAddress",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x69bc8cd4"
+    },
+    {
+        "type": "function",
+        "name": "setL2Gateway",
+        "inputs": [
+            {
+                "name": "_l2Gateway",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xc80a0f84"
+    },
+    {
+        "type": "function",
+        "name": "isArbitrumEnabled",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint8",
+                "internalType": "uint8"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x8e5f5ad1"
+    },
+    {
+        "type": "function",
+        "name": "registerTokenOnL2",
+        "inputs": [
+            {
+                "name": "l2CustomTokenAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "maxSubmissionCostForCustomBridge",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "maxSubmissionCostForRouter",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "maxGasForCustomBridge",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "maxGasForRouter",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "gasPriceBid",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "valueForGateway",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "valueForRouter",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "creditBackAddress",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xfc792d8e"
+    },
+    {
+        "type": "function",
+        "name": "setL1CustomGatewayAddress",
+        "inputs": [
+            {
+                "name": "_customGatewayAddress",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x2f76b7da"
+    },
+    {
+        "type": "function",
+        "name": "setL1RouterAddress",
+        "inputs": [
+            {
+                "name": "_l1RouterAddress",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x0ea87a12"
+    }
+]
